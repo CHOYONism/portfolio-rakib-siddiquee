@@ -1,14 +1,14 @@
-import { ReactNode } from "react";
-import RootStyleRegistry from "./emotion";
+import { ReactNode } from 'react'
+import RootStyleRegistry from './emotion'
 
 export const metadata = {
-  title: "Rakib Siddiquee",
-  description: "A user-friendly human being",
-};
+  title: 'Rakib Siddiquee',
+  description: 'Electrical Engineering Graduate | Coding Enthusiast'
+}
 
 type Props = {
-  children: ReactNode;
-};
+  children: ReactNode
+}
 
 const RootLayout = ({ children }: Props) => (
   <html lang="en">
@@ -16,6 +16,6 @@ const RootLayout = ({ children }: Props) => (
       <RootStyleRegistry>{children}</RootStyleRegistry>
     </body>
   </html>
-);
+)
 
-export default RootLayout;
+export default RootLayout

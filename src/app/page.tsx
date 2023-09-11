@@ -1,5 +1,5 @@
 const Home = () => {
-  return <div>Coming Soon!</div>
+  return <div>Under Construction!</div>
 }
 
 export default Home
