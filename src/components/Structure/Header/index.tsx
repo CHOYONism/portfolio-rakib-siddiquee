@@ -10,12 +10,12 @@ const array = [
 ]
 
 const Header = () => (
-  <Flex justify="space-between">
+  <Flex justify="space-between" style={{ position: 'sticky', top: 0 }}>
     <Image src="/logo.svg" alt="logo" height={48} width="auto" />
 
     <Group>
-      {array.map(({ title, url }) => (
-        <Anchor component={Link} href={url}>
+      {array.map(({ title, url }, index) => (
+        <Anchor component={Link} href={url} key={index}>
           {title}
         </Anchor>
       ))}

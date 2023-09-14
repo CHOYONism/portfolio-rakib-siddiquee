@@ -9,7 +9,7 @@ type Props = {
 }
 
 const Structure = ({ children }: Props) => (
-  <Container>
+  <Container style={{ position: 'relative' }}>
     <Header />
     <main>{children}</main>
     <Footer />
