@@ -1,4 +1,4 @@
-import { Anchor, Image, Flex, Group } from '@mantine/core'
+import { Anchor, Image, Group } from '@mantine/core'
 import Link from 'next/link'
 
 const array = [
@@ -10,7 +10,7 @@ const array = [
 ]
 
 const Header = () => (
-  <Flex justify="space-between" style={{ position: 'sticky', top: 0 }}>
+  <Group justify="space-between" pos="sticky" top={0}>
     <Image src="/logo.svg" alt="logo" height={48} width="auto" />
 
     <Group>
@@ -20,7 +20,7 @@ const Header = () => (
         </Anchor>
       ))}
     </Group>
-  </Flex>
+  </Group>
 )
 
 export default Header

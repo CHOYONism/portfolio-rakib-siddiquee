@@ -4,12 +4,12 @@ import { Container } from '@mantine/core'
 import Header from './Header'
 import Footer from './Footer'
 
-type Props = {
+type PropTypes = {
   children: ReactNode
 }
 
-const Structure = ({ children }: Props) => (
-  <Container style={{ position: 'relative' }}>
+const Structure = ({ children }: PropTypes) => (
+  <Container pos="relative">
     <Header />
     <main>{children}</main>
     <Footer />
