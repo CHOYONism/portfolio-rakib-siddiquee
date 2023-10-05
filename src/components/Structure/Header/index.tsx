@@ -10,7 +10,7 @@ const array = [
 ]
 
 const Header = () => (
-  <Group justify="space-between" pos="sticky" top={0}>
+  <Group justify="space-between" pos="sticky" top={0} py="xs">
     <Image src="/logo.svg" alt="logo" height={48} width="auto" />
 
     <Group>
