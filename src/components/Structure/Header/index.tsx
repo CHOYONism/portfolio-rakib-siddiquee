@@ -1,4 +1,4 @@
-import { Anchor, Image, Group } from '@mantine/core'
+import { Anchor, Image, Group, Title } from '@mantine/core'
 import Link from 'next/link'
 
 const array = [
@@ -11,7 +11,10 @@ const array = [
 
 const Header = () => (
   <Group justify="space-between" pos="sticky" top={0} py="xs">
-    <Image src="/logo.svg" alt="logo" height={48} width="auto" />
+    <Group gap="xs">
+      <Image src="/logo.png" alt="logo" height={48} width="auto" />
+      <Title size={24}>Rakib Siddiquee</Title>
+    </Group>
 
     <Group>
       {array.map(({ title, url }, index) => (
