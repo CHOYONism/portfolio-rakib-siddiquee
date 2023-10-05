@@ -14,8 +14,11 @@ const AboutMeIntro = () => (
         <Divider variant="dashed" my="md" />
 
         <Text ta="justify">
-          Lorem Ipsum is simply dummy text of the printing and dard dummy text ever since the 1500 when an uniknown
-          specimen book has not only five.
+          I am currently in my final year studying Electrical and Electronic Engineering at the University of Debrecen.
+          My academic journey has ignited a passion for coding, particularly in the realm of Embedded Systems and IoT
+          solutions. As a result, I am expanding my skill set by learning web development and pursuing a Master's in
+          Data Science. I see Data Science as the ideal fusion of my electrical engineering knowledge and programming
+          enthusiasm, and I am excited about the potential it holds.
         </Text>
       </Flex>
     </SimpleGrid>

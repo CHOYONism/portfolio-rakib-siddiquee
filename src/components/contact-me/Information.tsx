@@ -16,7 +16,7 @@ const ContactMeInfo = () => (
             <Text size="xs" c="dimmed">
               Cell Number
             </Text>
-            <Text>+77 022 177 05 05</Text>
+            <Text>+36 20 483 9943</Text>
           </Table.Td>
         </Table.Tr>
 
@@ -29,7 +29,7 @@ const ContactMeInfo = () => (
             <Text size="xs" c="dimmed">
               Email
             </Text>
-            <Text>mail@gmail.com</Text>
+            <Text>rakibul.islam.siddiquee@gmail.com</Text>
           </Table.Td>
         </Table.Tr>
 
@@ -42,8 +42,8 @@ const ContactMeInfo = () => (
             <Text size="xs" c="dimmed">
               Facebook
             </Text>
-            <Anchor target="_blank" href="#">
-              Some URL
+            <Anchor target="_blank" href="https://www.facebook.com/rakibul.islam.siddiquee">
+              Rakib Siddiquee
             </Anchor>
           </Table.Td>
         </Table.Tr>
@@ -57,8 +57,8 @@ const ContactMeInfo = () => (
             <Text size="xs" c="dimmed">
               LinkedIn
             </Text>
-            <Anchor target="_blank" href="#">
-              Some URL
+            <Anchor target="_blank" href="https://www.linkedin.com/in/rakibulislamsiddiquee/">
+              Md Rakibul Islam Siddiquee
             </Anchor>
           </Table.Td>
         </Table.Tr>
@@ -72,8 +72,8 @@ const ContactMeInfo = () => (
             <Text size="xs" c="dimmed">
               GitHub
             </Text>
-            <Anchor target="_blank" href="#">
-              Some URL
+            <Anchor target="_blank" href="https://github.com/CHOYONism">
+              Rakib Siddiquee
             </Anchor>
           </Table.Td>
         </Table.Tr>
